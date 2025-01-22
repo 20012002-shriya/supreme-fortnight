@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DJ & Event Management</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, black, #333);
+            color: white;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            background-image: url('https://via.placeholder.com/1500x500?text=Music+System');
+            background-size: cover;
+            background-position: center;
+            color: #f5f5f5;
+            text-shadow: 2px 2px 5px black;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        .contact {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 1.2rem;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+
+        .services {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .services h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            color: #f39c12;
+        }
+
+        .services p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            color: #e74c3c;
+        }
+
+        .services-list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .services-list .service-item {
+            background: rgba(255, 255, 255, 0.1);
+            margin: 10px;
+            padding: 20px;
+            border-radius: 10px;
+            color: #2ecc71;
+            font-weight: bold;
+            flex: 1 1 calc(25% - 40px);
+            max-width: calc(25% - 40px);
+            min-width: 150px;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #222;
+            color: #aaa;
+        }
+
+        footer a {
+            color: #f39c12;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .services-list .service-item {
+                flex: 1 1 calc(50% - 40px);
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            .services-list .service-item {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to DJ & Event Management</h1>
+        <p>Your go-to solution for unforgettable events</p>
+    </header>
+
+    <section class="contact">
+        <p>Contact Information:</p>
+        <p><strong>Harpanthpreet Singh</strong> - +44 7424702564</p>
+    </section>
+
+    <section class="services">
+        <h2>Our Services</h2>
+        <p>Make your every event special with us</p>
+        <div class="services-list">
+            <div class="service-item">Birthday Party</div>
+            <div class="service-item">Wedding</div>
+            <div class="service-item">Naming Ceremony</div>
+            <div class="service-item">Corporate Events</div>
+            <div class="service-item">Anniversary Celebrations</div>
+            <div class="service-item">Any Occasion!</div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 DJ & Event Management | Designed with <span style="color: #e74c3c;">&hearts;</span> by Harpanthpreet Singh</p>
+    </footer>
+</body>
+</html>
